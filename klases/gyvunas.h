@@ -12,7 +12,7 @@ protected:
 	int koju_skaicius;
 public:
 	Gyvunas(int svoris, int gimimo_metai, std::string vardas, int koju_skaicius);
-	~Gyvunas();
+	virtual ~Gyvunas();
 	virtual void skleisk_garsa() = 0;
 };
 

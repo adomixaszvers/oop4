@@ -6,3 +6,5 @@ Gyvunas::Gyvunas(int svoris, int gimimo_metai, std::string vardas, int koju_skai
 	this->vardas =  vardas;
 	this->koju_skaicius = koju_skaicius;
 }
+
+Gyvunas::~Gyvunas() {}
