@@ -6,7 +6,7 @@
 #define GYVUNAS_H
 
 class Gyvunas {
-private:
+protected:
 	int svoris, gimimo_metai;
 	std::string vardas;
 	int koju_skaicius;
