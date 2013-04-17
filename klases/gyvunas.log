@@ -1,0 +1,28 @@
+adomas@adomoarchlaptop ~/darbai/oop/ketvirtoji/klases (git)-[master] % date
+An Bal 16 09:47:51 EEST 2013
+adomas@adomoarchlaptop ~/darbai/oop/ketvirtoji/klases (git)-[master] % clang++ gyvunas.cpp
+In file included from gyvunas.cpp:1:
+./gyvunas.h:11:2: error: unknown type name 'string'; did you mean 'std::string'?
+        string vardas;
+        ^~~~~~
+        std::string
+/usr/lib64/gcc/x86_64-unknown-linux-gnu/4.8.0/../../../../include/c++/4.8.0/bits/stringfwd.h:61:33: note: 'std::string' declared here
+  typedef basic_string<char>    string;   
+                                ^
+In file included from gyvunas.cpp:1:
+./gyvunas.h:14:40: error: unknown type name 'string'; did you mean 'std::string'?
+        Gyvunas(int svoris, int gimimo_metai, string vardas, int koju_skaicius);
+                                              ^~~~~~
+                                              std::string
+/usr/lib64/gcc/x86_64-unknown-linux-gnu/4.8.0/../../../../include/c++/4.8.0/bits/stringfwd.h:61:33: note: 'std::string' declared here
+  typedef basic_string<char>    string;   
+                                ^
+gyvunas.cpp:3:48: error: unknown type name 'string'; did you mean 'std::string'?
+Gyvunas::Gyvunas(int svoris, int gimimo_metai, string vardas, int koju_skaicius) {
+                                               ^~~~~~
+                                               std::string
+/usr/lib64/gcc/x86_64-unknown-linux-gnu/4.8.0/../../../../include/c++/4.8.0/bits/stringfwd.h:61:33: note: 'std::string' declared here
+  typedef basic_string<char>    string;   
+                                ^
+3 errors generated.
+
