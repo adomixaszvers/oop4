@@ -5,7 +5,7 @@ Suo::Suo(int svoris, int gimimo_metai, std::string vardas, int koju_skaicius=4):
 }
 
 Suo::~Suo() {
-	std::cout << "As ismokau kalbeti pries pat savo sunaikinimą..." << std::endl;
+	std::cout << "Aš ismokau kalbeti pries pat savo sunaikinimą..." << std::endl;
 }
 
 void Suo::skleisk_garsa() {
