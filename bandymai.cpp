@@ -1,5 +1,5 @@
-#include "klases/katinas.h"
-#include "klases/suo.h"
+#include "katinas.h"
+#include "suo.h"
 
 
 int main() {
